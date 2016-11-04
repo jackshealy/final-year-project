@@ -1,0 +1,26 @@
+{
+  "name": "final-year-project",
+  "version": "1.0.0",
+  "description": "This repository is for my 4th year project that is to develop an online tool for the creation of sentence diagrams.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackshealy/final-year-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackshealy/final-year-project/issues"
+  },
+  "homepage": "https://github.com/jackshealy/final-year-project#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
