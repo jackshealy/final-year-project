@@ -17,8 +17,11 @@
   },
   "homepage": "https://github.com/jackshealy/final-year-project#readme",
   "dependencies": {
+    "angular-chart.js": "^1.1.1",
     "body-parser": "^1.15.2",
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "mongoose": "^4.6.6",
+    "treant-js": "^1.0.1"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"

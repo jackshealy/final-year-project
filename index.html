@@ -1,15 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html ng-app="SenTool">
 <head>
-    <meta charset="UTF-8">
-    <title>Sentence Diagrammer</title>
+
+    <title>SenTool</title>
+    <!--STYLESHEETS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+
+    <!--ICONS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
-  <h1>Sentence Diagramming tool.</h1>
-  <form action="/sentences" method="POST">
-      <input type="text" placeholder="name" name="name">
-      <input type="text" placeholder="sentence" name="sentence">
-      <button type="submit">Enter</button>
-  </form>
+
+<body ng-controller="mainController">
+
+<div class="side-nav">
+    <div class="nav-branding">SenTool</div>
+    <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#nav-content"></i>
+    <div class="nav-list">
+        <ul id="nav-content" class="nav-content collapse out">
+            <li>
+                <a href="#/">
+                    <i class="fa fa-home fa-md"></i> Home
+                </a>
+            </li>
+
+            <li>
+                <a href="#build">
+                    <i class="fa fa-pencil-square-o fa-md"></i> Build
+                </a>
+            </li>
+            <li>
+                <a href="#tree">
+                    <i class="fa fa-tree fa-md"></i> Tree's
+                </a>
+            </li>
+            <li>
+                <a href="#about">
+                    <i class="fa fa-shield fa-md"></i> About
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="container" id="main">
+    <div class="row">
+        <div class="col-md-12">
+            <div ng-view></div>
+        </div>
+    </div>
+</div>
+
+<!--SCRIPTS-->
+<!--Placement at the end of the document for faster loading of pages-->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script> <!-- angularJS base scripts from google CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="javascripts/controller.js"></script>  <!--link to the controller.js file, connects template to Angular app -->
+<script src="node_modules/angular-chart.js/node_modules/chart.js/dist/Chart.min.js"></script>
+<script src="node_modules/angular-chart.js/dist/angular-chart.min.js"></script>
+<script src="node_modules/treant-js/vendor/raphael.js"></script>
+<script src="node_modules/treant-js/Treant.js"></script>
+<script src="/javascripts/sentences.js"> </script>
 </body>
 </html>

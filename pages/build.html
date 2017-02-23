@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SenTool</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body>
+    <div class="jumbotron text-center">
+        <h1>Build.</h1>
+
+        <p>{{ message }}</p>
+    </div>
+
+    <div class="container mainBody">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="well">
+                    <div id="enterSentence">
+                        <h4><b>Enter the sentence you wish to diagram</b></h4>
+                        <form action="/sentence" method="POST">
+                            <input type="text" placeholder="Enter your sentence here" name="sentence" size="42">
+                            <button type="submit">Enter</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+        <div class="col-md-7">
+            <div class="well">
+                <h4>Drawing Space</h4>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--<div id="drawingSpace">
+    <h2>Draw your Sentence diagram in the drawing space below</h2>
+
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <!--<script src="draw-a-line.js"></script>
+    <script src="javascripts/draw.js"></script>
+    </div> -->
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SenTool</title>
+
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>About.</h1>
+
+    <p>{{ message }}</p>
+</div>
+
+<div class="container mainBody">
+<div class="row well">
+    <div class="col-md-12">
+
+            <h4><b>Sentence Diagramming</b></h4>
+            <p> Most methods of diagramming in pedagogy originated from the work of Alonzo Reed and Brainerd Kellogg in the late 1800’s.
+                Instead of looking into the order of words, Reed-Kellogg diagrams took a different approach in that they focused more on
+                how words function within a sentence and how they relate to each other. Sentence diagrams have stemmed from this approach
+                and are now widely used by many to pictorially represent the grammatical structure of a sentence.
+                They allow us to gain a better understanding of the relationship between words and the nature of syntactic structure.
+                Diagramming sentences is also an effective method for creating more complex sentences.
+                Sentence diagrams are used by teachers as a precise method of teaching grammar to students but can also be extremely beneficial
+                to people trying to learn the English language. </p>
+            <!--<p class="wiki_link"><a href="https://en.wikipedia.org/wiki/Sentence_diagram"><i class="fa fa-wikipedia-w" aria-hidden="true"></i></a></p>-->
+
+
+    </div>
+    </div>
+    <div ng-controller="barChartController" class="row well">
+        <div>
+
+                <div class="col-md-6 chartInfo">
+                    <h4><b>The English Language</b></h4>
+                        <p>There are approximately 390 million native English speakers worldwide, moreover there are almost double the amount people who speak English as a second language.
+                            This does not include non-native speakers which if counted also brings the total number of people who speak some kind of English towards 2 billion.<br><br>
+                            The interactive graph  <i class="fa fa-info-circle fa-md infoTooltip"><span class="infoTooltiptext">Hover over the bars in the chart for more accurate data.<br>
+                            Clicking a legend eliminates its associated data from the chart allowing for a more specific comparison.</span></i> demonstrates how English compares against other languages in the
+                            number of native speakers, second language speakers, and a total of the two. The data was retrieved from the 18th edition of Ethnolougue, a language reference published by
+                            SIL International. From the graph it can be seen that English ranks third in native speakers. Unsurprisingly it can also be seen that there a more people that speak English
+                            as a second languagethan any other language. These statistics outline the importance of pedagogical approaches that assist people inlearning the English language.</p>
+
+                </div>
+                <div class="col-md-6 barChart">
+                    <canvas id="langChart" class="chart chart-bar" chart-data="data" chart-colors="colors" chart-labels="labels" chart-series="series" chart-options="options">
+                    </canvas>
+                </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="well">
+                <h4><b>Parts Of Speech</b></h4>
+                <p>Every word in the English language belongs to one of eight word groups or <b><i>parts of
+                    speech</i></b>.
+                    Below is a brief summary of each group and how each can be represented within a sentence diagram.
+                </p>
+                <div class="well" id="noun">
+                    <h4 class="partsOfSpeech"><b>Nouns</b></h4>
+                    <p>A noun denotes a person, place, animal, thing or idea. Nouns can perform a variety of jobs in sentences.
+                    They can act as subjects, direct and indirect objects, predicate nouns, and more!<br>
+                    Examples: John, Harvard, dog, computer, concept.</p>
+                    <blockquote><u>John</u> walked the <u>dog</u>.</blockquote>
+                    <blockquote><u>Harvard</u> is located in <u>Cambridge</u>, <u>Massachusetts</u>.</blockquote>
+
+                </div>
+                <div class="well" id="pronoun">
+                    <h4 class="partsOfSpeech"><b>Pronouns</b></h4>
+                    <p>A pronoun is a word that takes the place of one or more nouns. Pronouns can do everything that nouns can do and
+                        therefore can perform a variety of jobs in sentences also.
+                        There are three types of pronouns: <b>object</b> (for example, him); <b>possessive</b> (for example, his); or <b>subject</b> (for example, he).<br>
+                        Examples: I, me, you, he, she, they, we.</p>
+                    <blockquote>John saw <u>his friend</u>, and <u>he</u> waved at <u>him</u>.</blockquote>
+                    <blockquote><u>She</u> said that <u>it</u> is cold outside.</blockquote>
+                </div>
+                <div class="well" id="adjective">
+                    <h4 class="partsOfSpeech"><b>Adjectives</b></h4>
+                    <p>An adjective describes a noun or pronoun. They are words that describe or modify other words, making the English language a lot more interesting.
+                        Sentences can contain multiple adjectives. <br>
+                        Examples: the, special, blue, bright, colorful.</p>
+                    <blockquote><u>The</u> <u>blue</u> car is John's.</blockquote>
+                    <blockquote>She would like <u>the</u> <u>fresh</u> cake.</blockquote>
+                </div>
+                <div class="well" id="verb">
+                    <h4 class="partsOfSpeech"><b>Verbs</b></h4>
+                    <p>A verb describes an action or a state of being. In English, a sentence or question cannot be made without a verb,
+                        this outlines the importance of these "action" parts of speech. Verbs always express activity.<br>
+                        Examples: cut, walk, run, swim, play, eat.</p>
+                    <blockquote>The baker <u>cut</u> the bread precisely. (<i>action verb</i>)</blockquote>
+                    <blockquote>The bread <u>is</u> good. (<i>linking verb</i>)</blockquote>
+                </div>
+                <div class="well" id="adverb">
+                    <h4 class="partsOfSpeech"><b>Adverbs</b></h4>
+                    <p>An adverb is a word or phrase that describes a verb, adjective, or other adverbs. Adverbs perform a variety of functions in sentences.<br>
+                        Examples: very, rapidly, so, lazily, honestly.</p>
+                    <blockquote>The boy answered the question <u>honestly</u>.</blockquote>
+                    <blockquote>She completed the task <u>very</u> <u>quickly</u>.</blockquote>
+                </div>
+                <div class="well" id="preposition">
+                    <h4 class="partsOfSpeech"><b>Prepositions</b></h4>
+                    <p>A preposition is a word that shows the relationship between a noun or a pronoun and some other word or element in the rest of the sentence.
+                        Prepositions occur in prepositional phrases: (a preposition + a noun or pronoun). These prepositional phrases act as adjectives or adverbs.<br>
+                        Examples: in, up, on, into, from, above, below.</p>
+                    <blockquote>John received a gift <u>from</u> Jill.</blockquote>
+                    <blockquote>School finishes <u>on</u> Friday.</blockquote>
+                </div>
+                <div class="well" id="conjunction">
+                    <h4 class="partsOfSpeech"><b>Conjunctions</b></h4>
+                    <p>A conjunction is a part of speech that is used to connect words, clauses, phrases, or sentences.
+                        There are multiple different types of conjunctions that perform various differnt tasks within sentence structures.<br>
+                        <b>Coordinating conjunctions</b> join two or more words, clauses, sentences, or other parts of speech with equal syntactic importance.<br>
+                        Examples: and, or, for, yet, but<br>
+                        <b>Subordinating conjunctions</b> join dependant clauses with independent clauses.<br>
+                        Examples: because, although, since.</p>
+                    <blockquote>Tom went to the zoo <u>and</u> to the cinema on Saturday.</blockquote>
+                    <blockquote>The girl got good grades <u>because</u> she studied everyday.</blockquote>
+                </div>
+                <div class="well" id="interjection">
+                    <h4 class="partsOfSpeech"><b>Interjections</b></h4>
+                    <p>Interjections are words or phrases that show emotion. They are not grammatically related to the rest of sentence. <br>
+                        Examples: yeah, oh no, phew, ahh, eww</p>
+                    <blockquote><u>Oh no</u>, he crashed the car!</blockquote>
+                    <blockquote><u>Phew</u>! That was close.</blockquote>
+                </div>
+            </div>
+        </div>
+            <div class="col-md-6">
+            <div class="well">
+                <h4><b>Application Tools</b></h4>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+</body>
+</html>
