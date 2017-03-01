@@ -17,6 +17,83 @@
         <div class="col-md-12">
             <div class = "well">
                 <h4><b>Discuss Link...</b></h4>
+                <p>Structural similarity. Tag descriptions are common for both..</p><br>
+                <hr>
+                <h4><b>Example:</b></h4><p>"The young boys really like video games"</p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5 class="example"><b>Parse</b></h5>
+                        <img src="/images/parse.png" class="img-responsive center-block" alt="Parse">
+                    </div>
+                    <div class="col-md-4">
+                        <h5 class="example"><b>Syntax Tree</b></h5>
+                        <img src="/images/syntaxtree.png" class="img-responsive center-block" alt="Syntax Tree">
+                    </div>
+                    <div class="col-md-4">
+                        <h5 class="example"><b>Sentence Diagram</b></h5>
+                        <img src="/images/sentenceDiagram.png" class="img-responsive center-block" alt="Sentence Diagram">
+                    </div>
+                </div>
+                <hr><br>
+                <h4><b>Tag descriptions:</b></h4>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th class="col-md-3">Tag</th>
+                            <th class="col-md-3">Speech group</th>
+                            <th class="col-md-7">Description</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr class="noun">
+                            <td>NN</td>
+                            <td>Nouns</td>
+                            <td>describes a noun.</td>
+                        </tr>
+                        <tr class="noun">
+                            <td>NP</td>
+                            <td>Nouns</td>
+                            <td>describes a noun phrase.</td>
+                        </tr>
+                        <tr class="adjective">
+                            <td>JJ</td>
+                            <td>Adjective</td>
+                            <td>describes an adjective.</td>
+                        </tr>
+                        <tr class="adjective">
+                            <td>DT</td>
+                            <td>Adjectives</td>
+                            <td>describes a determiner. Clarifies a noun.</td>
+                        </tr>
+                        <tr class="verb">
+                            <td>V</td>
+                            <td>Verbs</td>
+                            <td>describes a verb.</td>
+                        </tr>
+                        <tr class="verb">
+                            <td>VP</td>
+                            <td>Verbs</td>
+                            <td>describes a verb phrase.</td>
+                        </tr>
+                        <tr class="adverb">
+                            <td>RB</td>
+                            <td>Adverbs</td>
+                            <td>describes an adverb.</td>
+                        </tr>
+                        <tr class="adverb">
+                            <td>ADVP</td>
+                            <td>Adverbs</td>
+                            <td>describes an adverb phrase.</td>
+                        </tr>
+                        <tr class="preposition">
+                            <td>PP</td>
+                            <td>Prepositions</td>
+                            <td>describes a prepositional phrase.</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
@@ -24,33 +101,40 @@
     <div class="row">
         <div class="col-md-6">
             <div class="well">
-                <h4><b>Sentence 1</b></h4>
+                <h4><b>Simple Sentence (Subject and Verb)</b></h4>
+                <blockquote>Tom was laughing.</blockquote>
+                <h5>Syntax tree:</h5>
             </div>
         </div>
         <div class="col-md-6">
             <div class="well">
-                <h4><b>Sentence 2</b></h4>
+                <h4><b>Sentence with an adjective (Subject, Verb, and Adjective)</b></h4>
+                <blockquote>The colourful bird flew.</blockquote>
+                <h5>Syntax tree:</h5>
             </div>
         </div>
     </div>
     <div class="row">
         <div class="col-md-6">
             <div class="well">
-                <h4><b>Sentence 3</b></h4>
+                <h4><b>Sentence with an adverb (Subject, Verb and Adverb)</b></h4>
+                <blockquote>The woman speaks very loudly.</blockquote>
+                <h5>Syntax tree:</h5>
             </div>
         </div>
         <div class="col-md-6">
             <div class="well">
-                <h4><b>Sentence 4</b></h4>
+                <h4><b>Sentence with a prepositonal phrase (Subject, Verb and Preposition) </b></h4>
+                <blockquote>The horse gallops through the empty field.</blockquote>
+                <h5>Syntax tree:</h5>
             </div>
         </div>
     </div>
 </div>
 
-            <!--<div ng-controller="treantController" class="tree" id="tree-structure">{{tree}}</div>-->
-            <!--<script>
-                var Treant = require('treant-js');
-                new Treant(prep_sentence_syn);
-            </script>-->
+<div class="tree" id="tree-structure"></div>
+<script>
+    new Treant(adv_sentence_syn);
+</script>
 </body>
 </html>

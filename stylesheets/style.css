@@ -185,42 +185,42 @@ b {
     bottom: 0;
     margin: 5px;
 }
-#noun {
+.noun {
     background-color: rgba(95, 158, 160, 0.2);
     border-color: #999999;
 }
 
-#pronoun {
+.pronoun {
     background-color: rgba(179, 0, 0, 0.2);
     border-color: #999999;
 }
 
-#adjective {
+.adjective {
     background-color: rgba(255, 140, 0, 0.2);
     border-color: #999999;
 }
 
-#verb {
+.verb {
     background-color: rgba(34, 139, 34, 0.2);
     border-color: #999999;
 }
 
-#adverb {
+.adverb {
     background-color: rgba(230, 195, 0, 0.2);
     border-color: #999999;
 }
 
-#preposition {
+.preposition {
     background-color: rgba(0, 51, 153, 0.2);
     border-color: #999999;
 }
 
-#conjunction {
+.conjunction {
     background-color: rgba(153, 102, 51, 0.2);
     border-color: #999999;
 }
 
-#interjection {
+.interjection {
     background-color: rgba(51, 204, 255, 0.2);
     border-color: #999999;
 }
@@ -232,6 +232,26 @@ b {
 .examples{
     text-indent: 40px;
 }
+
+.homePage{
+    text-align:center;
+
+}
+
+.homeHeadings{
+    margin-bottom:30px;
+}
+
+
+.is-table-row {
+    display: table;
+}
+.is-table-row [class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+
 /*Other*/
 
 h1{
@@ -253,4 +273,58 @@ blockquote{
     font-size: 15px;
 }
 
+.btn{
+    background-color: #373f49;
+    color: white;
+    margin:20px;
+    padding: 10px;
+}
 
+.treePic{
+    background-image: url("/images/treeEdit.png");
+    background-position: center;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.buildPic{
+    background-image: url("/images/buildEdit.png");
+    background-position: center;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.aboutPic{
+    background-image: url("/images/bookEdit.png");
+    background-position: center;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.example{
+    text-align: center;
+}
+
+hr{
+    border-top: 1px solid #cccccc;
+}
+
+#homeJumbo{
+    height:460px;
+}
+/*Tables*/
+
+.table  {
+    text-align: center;
+}
+
+th {
+    text-align: center;
+    border-bottom: 2px solid #373f49;
+}
+
+.table-responsive{
+    border: 1px solid #cccccc;
+    height:150px;
+    overflow-y: auto;
+}
