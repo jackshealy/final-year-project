@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <title>SenTool</title>
-    <link rel="stylesheet" href="stylesheets/style.css">
 </head>
 <body>
     <div class="jumbotron text-center">
@@ -29,7 +28,51 @@
         <div class="col-md-7">
             <div class="well">
                 <h4>Drawing Space</h4>
+                <p>A description of each drawing primitive: <a href="#tools" class="btn btn-default" role="button">Tool Descriptions</a></p>
+                <svg height="600" viewBox="0 0 600 600" width="600" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+                                <path d="M 100 0 L 0 0 0 100" fill="none" stroke="#cccccc" stroke-width="1"/>
+                            </pattern>
+                        </defs>
+                        <rect fill="white" height="600" width="600" y="0"></rect>
+                        <rect fill="url(#grid)" height="600" width="600" y="0"></rect>
 
+                    <!-------Drawing Primitives------->
+
+                        <!--<path id="baseLine" d="M80 80 H160" stroke="black"
+                          stroke-width="2" fill="none"/>-->
+                        <!--<path id="subjectVerbRelationship" d="M80 80 H180 V60 V100 V80 H280" stroke="black"
+                              stroke-width="2" fill="none"/>-->
+                        <!--<path id="directObject" d="M80 80 H100 V60 V80 H180" stroke="black"
+                              stroke-width="2" fill="none"/>-->
+                        <!--<path id="modifier" d="M80 80 L120 120" stroke="black"
+                              stroke-width="2" fill="none"/>-->
+                        <path id="secondModifier" d="M100 60 L80 80 L120 120" stroke="black"
+                              stroke-width="2" fill="none"/>
+                        <!--<path id="indirectObject" d="M80 80 L100 100 H180" stroke="black"
+                              stroke-width="2" fill="none"/>-->
+                        <!--<path id="verticalLine" d="M100 100 V120" stroke="black"
+                              stroke-width="2" fill="none"/>-->
+                        <!--<g>
+                            <path id="compoundGroup" d="M80 80 L120 40 H200" stroke="black"
+                                  stroke-width="2" fill="none"/>
+                            <path stroke-dasharray="5,5" d="M120 40 V120 120" stroke="black" fill="none" stroke-width="1" />
+                            <text x="107" y="68" style="writing-mode: vertical-lr; glyph-orientation-vertical: 0;">and</text>
+                            <path id="compoundGroup1" d="M80 80 L120 120 H200" stroke="black"
+                                  stroke-width="2" fill="none"/>
+                        </g>-->
+                        <!--<g>
+                            <path id="tripleGroup" d="M80 80 L120 40 H200" stroke="black"
+                                  stroke-width="2" fill="none"/>
+                            <path stroke-dasharray="6,6" d="M120 40 V120 120" stroke="black" fill="none" stroke-width="1" />
+                            <text x="107" y="68" style="writing-mode: vertical-lr; glyph-orientation-vertical: 0;">and</text>
+                            <path id="tripleGroup1" d="M80 80 L120 120 H200" stroke="black"
+                                  stroke-width="2" fill="none"/>
+                            <path id="tripleGroup2" d="M120 80 H200" stroke="black"
+                                  stroke-width="2" fill="none"/>
+                        </g>-->
+                </svg>
             </div>
         </div>
     </div>

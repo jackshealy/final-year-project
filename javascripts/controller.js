@@ -5,6 +5,7 @@ var app = angular.module('SenTool',['ngRoute','chart.js']);
 // Creating a controller for each page injecting Angular's $scope
 app.controller('mainController', function($scope) {
     $scope.message = 'Welcome to SenTool!';
+    $scope.slogan = 'A slogan to go here that summarises the app';
 
 });
 
@@ -20,13 +21,11 @@ app.controller('aboutController', function($scope) {
     $scope.message = 'Learn about Sentence Diagrams!';
 });
 
-app.controller('treantController', function($scope){
+/*app.controller('treantController', function($scope){
     var Treant = require("treant-js");
     var mychart = new Treant(simple_sentence);
     $scope.tree= mychart;
-
-
-});
+});*/
 
 app.controller('barChartController', function($scope){
     $scope.labels = ['English', 'Spanish', 'Chinese', 'Arabic', 'French', 'Portuguese'];
@@ -89,6 +88,12 @@ app.config(function($routeProvider) {
         .when('/tree', {
             templateUrl : 'pages/tree.html',
             controller  : 'treeController'
+        })
+
+        // route for the tools div
+        .when('/tools', {
+            templateUrl : 'pages/about.html#tools',
+            controller  : 'aboutController'
         })
 
         // route for the about page

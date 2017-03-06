@@ -11,7 +11,7 @@ mongoose.connect('mongodb://127.0.0.1/fyp');
 
 //var x = Treant.Treant(prep_sentence_syn);
 
-var Treant = require('treant-js');
+//var Treant = require('treant-js');
 
 
 
