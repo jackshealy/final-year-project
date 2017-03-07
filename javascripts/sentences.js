@@ -60,11 +60,12 @@ var simple_sentence = {
 };
 
 var simple_sentence_syn = {
-    chart:  {
-        container: '#tree-structure',
+    chart: {
+        container: '#simple_sentence',
 
         connectors: {
             type: 'straight'
+
         }
     },
 //Sentence: Tom was laughing
@@ -164,7 +165,7 @@ var adj_sentence = {
 
 var adj_sentence_syn = {
     chart:  {
-        container: '#tree-structure',
+        container: '#adjective_sentence',
 
         connectors: {
             type: 'straight'
@@ -290,7 +291,7 @@ var adv_sentence = {
 
 var adv_sentence_syn = {
     chart:  {
-        container: '#tree-structure',
+        container: '#adverb_sentence',
 
         connectors: {
             type: 'straight'
@@ -463,7 +464,7 @@ var prep_sentence = {
 
 var prep_sentence_syn = {
     chart:  {
-        container: '#tree-structure',
+        container: '#prepositional_sentence',
 
         connectors: {
             type: 'straight'

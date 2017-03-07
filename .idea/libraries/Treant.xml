@@ -1,8 +1,7 @@
 <component name="libraryTable">
   <library name="Treant" type="javaScript">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/Treant" />
-      <root url="file://$PROJECT_DIR$/Treant" />
+      <root url="file://$PROJECT_DIR$/treant" />
     </CLASSES>
     <SOURCES />
   </library>

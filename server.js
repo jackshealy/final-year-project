@@ -8,13 +8,6 @@ app.use(require('express-method-override')('method_override_param_name'));
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://127.0.0.1/fyp');
 
-
-//var x = Treant.Treant(prep_sentence_syn);
-
-//var Treant = require('treant-js');
-
-
-
 var Schema = mongoose.Schema;
 
 var sentenceSchema = new Schema({
@@ -40,8 +33,6 @@ app.get('/displaySentences', function(req, res) {
     });
 
 });
-
-
 
 app.use(express.static(__dirname));
 app.get('/', function(req, res) {

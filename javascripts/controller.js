@@ -21,11 +21,12 @@ app.controller('aboutController', function($scope) {
     $scope.message = 'Learn about Sentence Diagrams!';
 });
 
-/*app.controller('treantController', function($scope){
-    var Treant = require("treant-js");
-    var mychart = new Treant(simple_sentence);
-    $scope.tree= mychart;
-});*/
+app.controller('treantController', function($scope){
+    $scope.simpleSentence = new Treant(simple_sentence_syn);
+    $scope.adjSentence = new Treant(adj_sentence_syn);
+    $scope.advSentence = new Treant(adv_sentence_syn);
+    $scope.prepSentence = new Treant(prep_sentence_syn);
+});
 
 app.controller('barChartController', function($scope){
     $scope.labels = ['English', 'Spanish', 'Chinese', 'Arabic', 'French', 'Portuguese'];

@@ -2,13 +2,127 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70b5b1ac-73ff-434c-ae5a-81b7f46af4a2" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/Treant.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/Treant.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/build" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/basic-example/basic-example.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/basic-example/basic-example.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/basic-example/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/collapsable/collapsable.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/collapsable/collapsable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/collapsable/img/cheryl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/collapsable/img/figgs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/collapsable/img/lana.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/collapsable/img/malory.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/collapsable/img/pam.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/collapsable/img/sterling.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/collapsable/img/woodhouse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/collapsable/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/comments/avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/comments/example8.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/comments/example8.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/comments/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/connectors/connectors.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/connectors/connectors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/connectors/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/custom-color-plus-scrollbar/custom-color-plus-scrollbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/custom-color-plus-scrollbar/custom-color-plus-scrollbar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/custom-color-plus-scrollbar/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/custom-colored/custom-colored.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/custom-colored/custom-colored.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/custom-colored/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/example6.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/example6.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/img/archaebacteria.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/img/bonyfish.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/img/cartilaginousfish.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/img/chelirates.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/img/cnidarians.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/img/cvijece1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/img/cvijece2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/img/ferns.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/img/flatare.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/img/fungi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/img/greenalgae.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/img/insekti.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/img/kornjaca.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/img/lophoprates.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/img/mosculs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/img/mosses.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/img/ne_cvijece.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/img/protoctis.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/img/ptica.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/img/rak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/img/rotfiers.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/img/roundworms.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/img/segmentedworms.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/img/slon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/img/spuzva.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/img/truebacteria.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/img/zaba.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/img/zmijurina.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/img/zvezda.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/evolution-tree/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/headshots/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/headshots/10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/headshots/11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/headshots/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/headshots/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/headshots/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/headshots/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/headshots/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/headshots/8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/headshots/9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/no-parent/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/no-parent/no-parent.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/no-parent/no-parent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/simple-scrollbar/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/simple-scrollbar/simple-scrollbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/simple-scrollbar/simple-scrollbar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/super-simple/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/super-simple/super-simple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/super-simple/super-simple.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/tennis-draw/example7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/tennis-draw/example7.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/tennis-draw/flags/arg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/tennis-draw/flags/aus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/tennis-draw/flags/can.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/tennis-draw/flags/esp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/tennis-draw/flags/fin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/tennis-draw/flags/fra.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/tennis-draw/flags/lat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/tennis-draw/flags/rus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/tennis-draw/flags/slo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/tennis-draw/flags/srb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/tennis-draw/flags/ukr.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/tennis-draw/flags/usa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/tennis-draw/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/tennis-draw/trophy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/test_ground/example_configs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/test_ground/image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/test_ground/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/test_ground/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/test_ground/slika-manja.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/timeline/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/timeline/timeline.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/examples/timeline/timeline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/vendor/jquery.easing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/vendor/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/vendor/jquery.mousewheel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/vendor/perfect-scrollbar/perfect-scrollbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/vendor/perfect-scrollbar/perfect-scrollbar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/treant-js/vendor/raphael.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/final-year-project.iml" afterPath="$PROJECT_DIR$/.idea/final-year-project.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Treant.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Treant.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascripts/controller.js" afterPath="$PROJECT_DIR$/javascripts/controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascripts/sentences.js" afterPath="$PROJECT_DIR$/javascripts/sentences.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/about.html" afterPath="$PROJECT_DIR$/pages/about.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/build.html" afterPath="$PROJECT_DIR$/pages/build.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/home.html" afterPath="$PROJECT_DIR$/pages/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/tree.html" afterPath="$PROJECT_DIR$/pages/tree.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/style.css" afterPath="$PROJECT_DIR$/stylesheets/style.css" />
@@ -37,28 +151,28 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-265">
-              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="56" />
+            <state relative-caret-position="476">
+              <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="build.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/build.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+            <state relative-caret-position="340">
+              <caret line="53" column="69" lean-forward="true" selection-start-line="53" selection-start-column="69" selection-end-line="53" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controller.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascripts/controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-850">
-              <caret line="7" column="66" lean-forward="false" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+            <state relative-caret-position="371">
+              <caret line="26" column="54" lean-forward="false" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -67,8 +181,8 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="36" />
+            <state relative-caret-position="595">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,8 +191,8 @@
       <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="979">
-              <caret line="133" column="173" lean-forward="false" selection-start-line="133" selection-start-column="173" selection-end-line="133" selection-end-column="173" />
+            <state relative-caret-position="78">
+              <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -87,8 +201,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="959">
-              <caret line="72" column="23" lean-forward="false" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
+            <state relative-caret-position="668">
+              <caret line="343" column="12" lean-forward="false" selection-start-line="343" selection-start-column="12" selection-end-line="343" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -97,7 +211,7 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="56">
               <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding />
             </state>
@@ -107,8 +221,8 @@
       <file leaf-file-name="tree.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/tree.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="670">
-              <caret line="134" column="6" lean-forward="false" selection-start-line="134" selection-start-column="6" selection-end-line="134" selection-end-column="6" />
+            <state relative-caret-position="1870">
+              <caret line="110" column="30" lean-forward="false" selection-start-line="110" selection-start-column="30" selection-end-line="110" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -117,8 +231,8 @@
       <file leaf-file-name="sentences.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascripts/sentences.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="61" column="27" lean-forward="false" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
+            <state relative-caret-position="578">
+              <caret line="466" column="43" lean-forward="false" selection-start-line="466" selection-start-column="43" selection-end-line="466" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -149,17 +263,17 @@
         <option value="$PROJECT_DIR$/javascripts/draw.js" />
         <option value="$PROJECT_DIR$/javascripts/basicSentence.js" />
         <option value="$PROJECT_DIR$/javascripts/popover.js" />
-        <option value="$PROJECT_DIR$/javascripts/sentences.js" />
         <option value="$PROJECT_DIR$/node_modules/treant-js/index.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/server.js" />
-        <option value="$PROJECT_DIR$/stylesheets/style.css" />
-        <option value="$PROJECT_DIR$/pages/build.html" />
-        <option value="$PROJECT_DIR$/pages/about.html" />
-        <option value="$PROJECT_DIR$/javascripts/controller.js" />
         <option value="$PROJECT_DIR$/pages/home.html" />
+        <option value="$PROJECT_DIR$/pages/about.html" />
+        <option value="$PROJECT_DIR$/pages/build.html" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/javascripts/controller.js" />
+        <option value="$PROJECT_DIR$/javascripts/sentences.js" />
         <option value="$PROJECT_DIR$/pages/tree.html" />
+        <option value="$PROJECT_DIR$/stylesheets/style.css" />
       </list>
     </option>
   </component>
@@ -200,6 +314,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -250,13 +365,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
+              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -268,7 +382,7 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -381,12 +495,13 @@
       <workItem from="1485875606008" duration="123449000" />
       <workItem from="1487792129965" duration="21189000" />
       <workItem from="1487937754860" duration="47771000" />
-      <workItem from="1488473939435" duration="16278000" />
+      <workItem from="1488473939435" duration="21235000" />
+      <workItem from="1488885144779" duration="9183000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="280946000" />
+    <option name="totallyTimeSpent" value="295086000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
@@ -394,7 +509,8 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13869047" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.016198704" sideWeight="0.50238097" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.016198704" sideWeight="0.50238097" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3261339" sideWeight="0.49761903" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -406,7 +522,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -593,7 +708,7 @@
     <entry file="file://$PROJECT_DIR$/style.css" />
     <entry file="file://$PROJECT_DIR$/ctrl.js" />
     <entry file="file://$PROJECT_DIR$/javascripts/canvas.js" />
-    <entry file="file://$PROJECT_DIR$/Treant/Treant.js" />
+    <entry file="file://$PROJECT_DIR$/treant/Treant.js" />
     <entry file="file://$PROJECT_DIR$/javascripts/basicSentence.js" />
     <entry file="file://$PROJECT_DIR$/../Treant/examples/basic-example/basic-example.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -637,14 +752,6 @@
     <entry file="file://$PROJECT_DIR$/node_modules/treant-js/index.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/treant-js/README.md" />
     <entry file="file://$PROJECT_DIR$/node_modules/treant-js/package.json" />
-    <entry file="file://$PROJECT_DIR$/javascripts/sentences.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="27" lean-forward="false" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/angular-chart.js/node_modules/chart.js/dist/Chart.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -659,73 +766,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/treant-js/Treant.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/treant-js/Treant.js" />
+    <entry file="file://$PROJECT_DIR$/javascripts/sentences.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="959">
-          <caret line="72" column="23" lean-forward="false" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/build.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="979">
-          <caret line="133" column="173" lean-forward="false" selection-start-line="133" selection-start-column="173" selection-end-line="133" selection-end-column="173" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-265">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/tree.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="134" column="6" lean-forward="false" selection-start-line="134" selection-start-column="6" selection-end-line="134" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="36" />
+        <state relative-caret-position="578">
+          <caret line="466" column="43" lean-forward="false" selection-start-line="466" selection-start-column="43" selection-end-line="466" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javascripts/controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-850">
-          <caret line="7" column="66" lean-forward="false" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+        <state relative-caret-position="371">
+          <caret line="26" column="54" lean-forward="false" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="343" column="12" lean-forward="false" selection-start-line="343" selection-start-column="12" selection-end-line="343" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/tree.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="110" column="30" lean-forward="false" selection-start-line="110" selection-start-column="30" selection-end-line="110" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/build.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="53" column="69" lean-forward="true" selection-start-line="53" selection-start-column="69" selection-end-line="53" selection-end-column="69" />
           <folding />
         </state>
       </provider>

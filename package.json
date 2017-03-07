@@ -21,8 +21,7 @@
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "mongoose": "^4.6.6",
-    "snapsvg": "^0.5.1",
-    "treant-js": "^1.0.1"
+    "snapsvg": "^0.5.1"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"

@@ -264,6 +264,13 @@ blockquote{
     padding: 10px;
 }
 
+.btn-default:hover{
+    background-color: #373f49;
+    color: white;
+    margin:20px;
+    padding: 10px;
+}
+
 .treePic{
     background-image: url("/images/treeEdit.png");
     background-position: center;
@@ -324,5 +331,24 @@ th {
 thead{
     background-color: #b6b6b6;
     line-height: 2.5em;
+
+}
+
+.value{
+    color: rgb(95, 158, 160);
+    font-weight: 600;
+}
+
+.chart{
+    width:100%;
+    height:400px;
+}
+
+.chart svg {
+    border: none;
+    width:100%;
+    height:auto;
+
+
 
 }
