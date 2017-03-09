@@ -9,8 +9,8 @@ app.controller('mainController', function($scope) {
 
 });
 
-app.controller('buildController', function($scope) {
-    $scope.message = 'Create your own Sentence Diagrams!';
+app.controller('viewController', function($scope) {
+    $scope.message = 'View various types of sentence diagrams generated from JSON';
 });
 
 app.controller('treeController', function($scope) {
@@ -42,12 +42,12 @@ app.controller('barChartController', function($scope){
                       pointHoverBorderColor: 'rgba(95,158,160,0.8)'
                      },
                      { //DarkGray
-                      backgroundColor: 'rgba(77,83,96,0.2)',
-                      pointBackgroundColor: 'rgba(77,83,96,1)',
-                      pointHoverBackgroundColor: 'rgba(77,83,96,1)',
-                      borderColor: 'rgba(77,83,96,1)',
+                      backgroundColor: 'rgba(76,83,96,0.2)',
+                      pointBackgroundColor: 'rgba(76,83,96,1)',
+                      pointHoverBackgroundColor: 'rgba(76,83,96,1)',
+                      borderColor: 'rgba(76,83,96,1)',
                       pointBorderColor: '#fff',
-                      pointHoverBorderColor: 'rgba(77,83,96,0.8)'
+                      pointHoverBorderColor: 'rgba(76,83,96,0.8)'
                      },
                      { //DarkRed
                       backgroundColor: 'rgba(153,0,0,0.2)',
@@ -80,9 +80,9 @@ app.config(function($routeProvider) {
         })
 
         // route for the build page
-        .when('/build', {
+        .when('/view', {
             templateUrl : 'pages/build.html',
-            controller  : 'buildController'
+            controller  : 'viewController'
         })
 
         // route for the tree page

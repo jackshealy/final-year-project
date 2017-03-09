@@ -1,4 +1,3 @@
-
 //Test
 var test_config = {
     chart: {
@@ -400,10 +399,8 @@ var adv_sentence_syn = {
  {
  type:'adjective',
  value:'the empty'
-
  }
  ]
-
  }
  ]
  }
@@ -587,4 +584,3 @@ var prep_sentence_syn = {
         ]
     }
 };
-

@@ -97,41 +97,44 @@
         </div>
     </div>
 
-    <div ng-controller="treantController">
+    <div ng-controller="treantController" class="container-fluid well">
+    <h4><b>Syntax tree examples</b></h4>
     <div class="row">
         <div class="col-md-6">
-            <div class="well">
-                <h4><b>Simple Sentence (Subject and Verb)</b></h4>
+
+                <h5><b>Simple Sentence (Subject and Verb)</b></h5>
                 <blockquote>Tom was laughing.</blockquote>
                 <h5>Syntax tree:</h5>
-                <div class="chart fluid-container" id="simple_sentence">{{simpleSentence}}</div>
-                </div>
+                <div class="chart" id="simple_sentence">{{simpleSentence}}</div>
+
         </div>
         <div class="col-md-6">
-            <div class="well">
-                <h4><b>Sentence with an adjective (Subject, Verb, and Adjective)</b></h4>
+
+                <h5><b>Sentence with an adjective (Subject, Verb, and Adjective)</b></h5>
                 <blockquote>The colourful bird flew.</blockquote>
                 <h5>Syntax tree:</h5>
+                <div class="col-md-12">
                 <div class="chart" id="adjective_sentence">{{adjSentence}}</div>
-            </div>
+                </div>
+
         </div>
     </div>
     <div class="row">
         <div class="col-md-6">
-            <div class="well">
-                <h4><b>Sentence with an adverb (Subject, Verb and Adverb)</b></h4>
+
+                <h5><b>Sentence with an adverb (Subject, Verb and Adverb)</b></h5>
                 <blockquote>The woman speaks very loudly.</blockquote>
                 <h5>Syntax tree:</h5>
                 <div class="chart" id="adverb_sentence">{{advSentence}}</div>
-            </div>
+
         </div>
         <div class="col-md-6">
-            <div class="well">
-                <h4><b>Sentence with a prepositional phrase (Subject, Verb and Preposition) </b></h4>
+
+                <h5><b>Sentence with a prepositional phrase (Subject, Verb and Preposition) </b></h5>
                 <blockquote>The horse gallops through the empty field.</blockquote>
                 <h5>Syntax tree:</h5>
                 <div class="chart" id="prepositional_sentence">{{prepSentence}}</div>
-            </div>
+
         </div>
     </div>
     </div>
