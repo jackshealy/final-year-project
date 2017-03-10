@@ -5,12 +5,13 @@ var app = angular.module('SenTool',['ngRoute','chart.js']);
 // Creating a controller for each page injecting Angular's $scope
 app.controller('mainController', function($scope) {
     $scope.message = 'Welcome to SenTool!';
-    $scope.slogan = 'A slogan to go here that summarises the app';
+    $scope.slogan = 'Sentence diagramming can be complicated.';
+    $scope.slogan1 = 'Simplify it with SenTool.'
 
 });
 
 app.controller('viewController', function($scope) {
-    $scope.message = 'View various types of sentence diagrams generated from JSON';
+    $scope.message = 'View various types of sentence diagrams generated from JSON.';
 });
 
 app.controller('treeController', function($scope) {
@@ -81,7 +82,7 @@ app.config(function($routeProvider) {
 
         // route for the build page
         .when('/view', {
-            templateUrl : 'pages/build.html',
+            templateUrl : 'pages/view.html',
             controller  : 'viewController'
         })
 

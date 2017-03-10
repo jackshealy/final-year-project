@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SenTool</title>
+</head>
+<body>
+    <div class="jumbotron text-center">
+        <h1>View.</h1>
+
+        <p>{{ message }}</p>
+    </div>
+
+    <div class="container mainBody">
+
+        <div class="row well">
+            <div class="col-md-12">
+                <h4><b>Brief Description</b></h4>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 text-center">
+                <div class="list-group">
+                    <button type="button" onclick="example0()" class="list-group-item list-group-item-action">Basic Sentence example</button>
+                    <button type="button" onclick="example5()" class="list-group-item list-group-item-action">Question example</button>
+                    <button type="button" onclick="example4()" class="list-group-item list-group-item-action">Direct object example</button>
+                    <button type="button" onclick="example5()" class="list-group-item list-group-item-action">Predicate noun example</button>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <canvas id="displayCanvas" width="525" height="250"></canvas>
+            </div>
+            <div class="col-md-3 text-center">
+                <div class="list-group">
+                    <button type="button" onclick="example4()" class="list-group-item list-group-item-action">Adverb example</button>
+                    <button type="button" onclick="example5()" class="list-group-item list-group-item-action">Adjective example</button>
+                    <button type="button" onclick="example4()" class="list-group-item list-group-item-action">Prepositional phrase example</button>
+                    <button type="button" onclick="example5()" class="list-group-item list-group-item-action">Indirect object example</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="well ">
+        <div class="row">
+            <div style="padding-left: 10px;"><h4><b>Diagram Descriptions</b></h4>
+            <p>Below is a description of each of the diagrams that you can display in the display space.</p>
+            </div>
+            <div class="col-md-3">
+            <hr>
+            <div>
+                <h4><b>Basic sentence</b></h4>
+                <p>An example of how a basic sentence containing only a subject and a verb can be represented by a sentence diagram.</p>
+                <p><b>Sentence:</b></p>
+                <blockquote>Tom shouted</blockquote><br>
+                <p><b>Sentence breakdown:</b></p>
+                <p>Parts of speech: noun(Tom), verb(shouted).</p>
+                <p>Associated tags: NN, V.</p>
+            </div>
+
+            </div>
+            <div class="col-md-3">
+            <hr>
+                <div>
+                <h4><b>Question</b></h4>
+                <p>An example of how a question can be represented as a sentence diagram.</p><br>
+                <p><b>Sentence:</b></p>
+                <blockquote>Why are you laughing?</blockquote><br>
+                <p><b>Sentence breakdown:</b></p>
+                <p>Parts of speech: noun(you), verb(are laughing), adverb(why).</p>
+                <p>Associated tags: NN, V, RB.</p>
+            </div>
+
+            </div>
+            <div class="col-md-3">
+            <hr>
+            <div>
+                <h4><b>Direct object</b></h4>
+                <p>An example of how a sentence containing a direct object can be represented by a sentence diagram.</p>
+                <p><b>Sentence:</b></p>
+                <blockquote>David drove home</blockquote><br>
+                <p><b>Sentence breakdown:</b></p>
+                <p>Parts of speech: noun(David), verb(drove), adverb(home).</p>
+                <p>Associated tags: NN, V, RB.</p>
+            </div>
+
+            </div>
+            <div class="col-md-3">
+            <hr>
+            <div>
+                <h4><b>Predicate noun</b></h4>
+                <p>An example of how a sentence containing a predicate noun can be represented by a sentence diagram.</p>
+                <p><b>Sentence:</b></p>
+                <blockquote>Blue is a colour</blockquote><br>
+                <p><b>Sentence breakdown:</b></p>
+                <p>Parts of speech: noun(Blue), verb(is), determiner(a), noun(colour).</p>
+                <p>Associated tags: NN, V, DET.</p>
+            </div>
+
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-md-3">
+                <hr>
+                <div>
+                    <h4><b>Adverb</b></h4>
+                    <p>An example of how a sentence containing an adverb can be represented by a sentence diagram.</p>
+                    <p><b>Sentence:</b></p>
+                    <blockquote>He ran very quickly.</blockquote><br>
+                    <p><b>Sentence breakdown:</b></p>
+                    <p>Parts of speech: noun(He), verb(ran), adverb(very,quickly).</p>
+                    <p>Associated tags: NN, V, RB.</p>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <hr>
+                <div>
+                    <h4><b>Adjective</b></h4>
+                    <p>An example of how a sentence containing an adjective can be represented by a sentence diagram</p>
+                    <p><b>Sentence:</b></p>
+                    <blockquote>The yellow ducks quacked.</blockquote><br>
+                    <p><b>Sentence breakdown:</b></p>
+                    <p>Parts of speech: noun(ducks), verb(quacked), adjective(yellow), determiner(The).</p>
+                    <p>Associated tags: NN, V, JJ.</p>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <hr>
+                <div>
+                    <h4><b>Prepositional Phrase</b></h4>
+                    <p>An example of how a sentence containing a prepositional phrase can be represented by a sentence diagram.</p>
+                    <p><b>Sentence:</b></p>
+                    <blockquote>The horse galloped through the empty field.</blockquote><br>
+                    <p><b>Sentence breakdown:</b></p>
+                    <p>Parts of speech: noun(horse, field), verb(galloped), determiner(the), adjective(empty), preposition(through).</p>
+                    <p>Associated tags: NN, V, JJ, DET, PP.</p>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <hr>
+                <div>
+                    <h4><b>Indirect object</b></h4>
+                    <p>An example of how a sentence containing an indirect object can be represented by a sentence diagram.</p>
+                    <p><b>Sentence:</b></p>
+                    <blockquote>The teacher gave the class homework.</blockquote><br>
+                    <p><b>Sentence breakdown:</b></p>
+                    <p>Parts of speech: noun(Blue), verb(is), determiner(a), noun(colour).</p>
+                    <p>Associated tags: NN, V, DET.</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+            <div class="col-md-3">
+                <div class="list-group">
+                    <button type="button" onclick="example4()" class="list-group-item list-group-item-action">Adverb Sentence</button>
+                    <button type="button" onclick="example5()" class="list-group-item list-group-item-action">Object Sentence</button>
+                </div>
+
+            </div>
+
+            </div>
+
+        </div>
+
+
+
+
+</body>
+</html>
+
+<!--<div class="row">
+<div class="col-md-5">
+    <div class="well">
+        <div id="enterSentence">
+            <h4><b>Enter the sentence you wish to diagram</b></h4>
+            <form action="/sentence" method="POST">
+                <input type="text" placeholder="Enter your sentence here" name="sentence" size="42">
+                <button type="submit">Enter</button>
+            </form>
+        </div>
+    </div>
+</div>-->
+
+
+<!--<div class="col-md-7">
+    <div class="well">
+        <h4>Drawing Space</h4>
+        <p>A description of each drawing primitive: <a class="btn btn-default" role="button">Tool Descriptions</a></p>
+        <svg height="600" viewBox="0 0 600 600" width="600" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+                        <path d="M 100 0 L 0 0 0 100" fill="none" stroke="#cccccc" stroke-width="1"></path>
+                    </pattern>
+                </defs>
+                <rect fill="white" height="600" width="600" y="0"></rect>
+                <rect fill="url(#grid)" height="600" width="600" y="0"></rect>-->
+
+<!-------Drawing Primitives------->
+
+<!-- <path id="baseLine" d="M80 80 H160" stroke="black"
+   stroke-width="2" fill="none"></path>
+ <path id="subjectVerbRelationship" d="M80 80 H180 V60 V100 V80 H280" stroke="black"
+       stroke-width="2" fill="none"></path>
+ <path id="directObject" d="M80 80 H100 V60 V80 H180" stroke="black"
+       stroke-width="2" fill="none"></path>
+ <path id="modifier" d="M80 80 L120 120" stroke="black"
+       stroke-width="2" fill="none"></path>
+ <path id="secondModifier" d="M100 60 L80 80 L120 120" stroke="black"
+       stroke-width="2" fill="none"></path>
+ <path id="indirectObject" d="M80 80 L100 100 H180" stroke="black"
+       stroke-width="2" fill="none"></path>
+ <path id="verticalLine" d="M100 100 V120" stroke="black"
+       stroke-width="2" fill="none"></path>
+ <g>
+     <path id="compoundGroup" d="M80 80 L120 40 H200" stroke="black"
+           stroke-width="2" fill="none"></path>
+     <path stroke-dasharray="5,5" d="M120 40 V120 120" stroke="black" fill="none" stroke-width="1"></path>
+     <text x="107" y="68" style="writing-mode: vertical-lr; glyph-orientation-vertical: 0;">and</text>
+     <path id="compoundGroup1" d="M80 80 L120 120 H200" stroke="black"
+           stroke-width="2" fill="none"></path>
+ </g>
+ <g>
+     <path id="tripleGroup" d="M80 80 L120 40 H200" stroke="black"
+           stroke-width="2" fill="none"></path>
+     <path stroke-dasharray="6,6" d="M120 40 V120 120" stroke="black" fill="none" stroke-width="1"></path>
+     <text x="107" y="68" style="writing-mode: vertical-lr; glyph-orientation-vertical: 0;">and</text>
+     <path id="tripleGroup1" d="M80 80 L120 120 H200" stroke="black"
+           stroke-width="2" fill="none"></path>
+     <path id="tripleGroup2" d="M120 80 H200" stroke="black"
+           stroke-width="2" fill="none"></path>
+ </g>
+</svg>
+</div>
+</div>
+</div>-->
+<!--<div id="drawingSpace">
+<h2>Draw your Sentence diagram in the drawing space below</h2>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<!--<script src="draw-a-line.js"></script>
+<script src="javascripts/draw.js"></script>
+</div> -->
