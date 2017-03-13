@@ -1,4 +1,5 @@
-
+//Basic example
+//sentence: Tom shouted
 function example0(){
 
     var sen_JSON =
@@ -30,7 +31,121 @@ function drawTree0(subject, verb){
     //subject-verb relationship
     drawSubjectVerb(subject,verb);
 }
+//Question example
+//sentence: why are you laughing?
+function Question(){
+    var ques_JSON =
+        {
+        sentence:'why are you laughing',
+        subject:{
+            value:'you'
+        },
+        verb:{
+            value:'are lauging',
+            modifiers:[
+                {
+                    type:'adverb',
+                    value:'why'
+                }
+            ]
+        }
+    };
 
+    var subject = ques_JSON["subject"].value;
+
+    var verb = ques_JSON["verb"].value;
+
+    var verbModifier = ques_JSON["verb"].modifiers[0].value;
+
+    drawQuestion(subject,verb,verbModifier);
+
+}
+
+function drawQuestion(subject,verb,modifier){
+    //function to draw tree structure
+    var canvas = document.getElementById('displayCanvas');
+    var draw = canvas.getContext('2d');
+
+    draw.clearRect(0, 0, canvas.width, canvas.height);
+    draw.font = "17px Arial";
+
+    //subject-verb relationship
+    drawSubjectVerb(subject,verb);
+
+    //verb modifier
+    draw.beginPath();
+    draw.moveTo(285,100);
+    draw.lineTo(315,140);
+    //verb modifier placeholder
+    draw.fillText(modifier,305,120);
+    draw.closePath();
+
+
+    draw.lineWidth = 2;
+    draw.strokeStyle = 'black';
+    draw.stroke();
+
+}
+
+//Passive Verb example
+//sentence: The sun is shining
+
+function passiveVerb(){
+    var pVerb_JSON =
+        {
+            sentence:'The sun is shining',
+            subject:{
+                value:'sun',
+                modifiers:[
+                    {
+                        type:'determiner',
+                        value:'The'
+                    }
+                ]
+            },
+            verb:{
+                value:'is shining'
+            }
+        };
+
+    var subject = pVerb_JSON["subject"].value;
+
+    var verb = pVerb_JSON["verb"].value;
+
+    var subjectMod = pVerb_JSON["subject"].modifiers[0].value;
+
+    drawPassiveVerb(subject,verb,subjectMod);
+}
+function drawPassiveVerb(subject,verb,modifier){
+    //function to draw tree structure
+    var canvas = document.getElementById('displayCanvas');
+    var draw = canvas.getContext('2d');
+
+    draw.clearRect(0, 0, canvas.width, canvas.height);
+    draw.font = "17px Arial";
+
+    //subject-verb relationship
+    drawSubjectVerb(subject,verb);
+
+    //subject modifier
+    draw.beginPath();
+    draw.moveTo(85,100);
+    draw.lineTo(115,140);
+    //subject modifier placeholder
+    draw.fillText(modifier,105,120);
+    draw.closePath();
+
+
+    draw.lineWidth = 2;
+    draw.strokeStyle = 'black';
+    draw.stroke();
+
+}
+
+
+
+
+//Adjective example
 //sentence: The yellow ducks quacked
 function example1(){
 
@@ -82,13 +197,13 @@ function drawTree(subject, verb, modArray){
     //subject modifier
     draw.beginPath();
     draw.moveTo(85,100);
-    draw.lineTo(105,130);
+    draw.lineTo(115,140);
     //subject modifier placeholder
     draw.fillText(modArray[0],105,120);
 
     //2nd subject modifier
     draw.moveTo(160,100);
-    draw.lineTo(180,130);
+    draw.lineTo(190,140);
     //2nd subject modifier placeholder
     draw.fillText(modArray[1],180,120);
     draw.closePath();
@@ -98,6 +213,7 @@ function drawTree(subject, verb, modArray){
     draw.stroke();
 }
 
+//Adverb example
 //sentence: He ran very slowly
 function example2(){
 
@@ -116,7 +232,7 @@ function example2(){
                     },
                     {
                         type:'adverb',
-                        value:'quickly'
+                        value:'slowly'
                     }
                 ]
             }
@@ -172,7 +288,8 @@ function drawTree2(subject, verb, modArray){
 
 }
 
-//The horse galloped through the empty field
+//Prepositional phrase example
+//sentence: The horse galloped through the empty field
 function example3(){
 
     var sen3_JSON =
@@ -260,7 +377,6 @@ function modRecursive(modifier,typeArr,valueArr){
 
 
 function drawTree3(subject, verb, subjectMod, verbMod){
-    console.log(subject);
     var canvas = document.getElementById('displayCanvas');
     var draw = canvas.getContext('2d');
 
@@ -311,6 +427,7 @@ function drawTree3(subject, verb, subjectMod, verbMod){
     draw.stroke();
 }
 
+//Direct object example
 //sentence: David drove home
 function example4(){
 
@@ -369,6 +486,8 @@ function drawTree4(subject, verb, directObject){
 
 }
 
+//Predicate noun example
+//sentence: blue is a colour
 function example5(){
 
     var sen5_JSON =
@@ -381,7 +500,7 @@ function example5(){
                 value:'is',
                 modifiers:[
                     {
-                        type:'pronoun',
+                        type:'noun',
                         value:'colour'
                     },
                     {
@@ -440,6 +559,7 @@ function drawTree5(subject, verb, modArray){
     draw.stroke();
 
 }
+
 
 function example6(){
 

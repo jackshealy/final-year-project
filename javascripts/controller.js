@@ -23,6 +23,7 @@ app.controller('aboutController', function($scope) {
 });
 
 app.controller('treantController', function($scope){
+
     $scope.simpleSentence = new Treant(simple_sentence_syn);
     $scope.adjSentence = new Treant(adj_sentence_syn);
     $scope.advSentence = new Treant(adv_sentence_syn);

@@ -18,24 +18,25 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row" id="diagramDisplay">
             <div class="col-md-3 text-center">
                 <div class="list-group">
                     <button type="button" onclick="example0()" class="list-group-item list-group-item-action">Basic Sentence example</button>
-                    <button type="button" onclick="example5()" class="list-group-item list-group-item-action">Question example</button>
-                    <button type="button" onclick="example4()" class="list-group-item list-group-item-action">Direct object example</button>
+                    <button type="button" onclick="Question()" class="list-group-item list-group-item-action">Question example</button>
+                    <button type="button" onclick="passiveVerb()" class="list-group-item list-group-item-action">Passive verb example</button>
                     <button type="button" onclick="example5()" class="list-group-item list-group-item-action">Predicate noun example</button>
                 </div>
             </div>
             <div class="col-md-6 text-center">
-                <canvas id="displayCanvas" width="525" height="250"></canvas>
+                <canvas id="displayCanvas" width="600" height="250"></canvas>
             </div>
             <div class="col-md-3 text-center">
                 <div class="list-group">
-                    <button type="button" onclick="example4()" class="list-group-item list-group-item-action">Adverb example</button>
-                    <button type="button" onclick="example5()" class="list-group-item list-group-item-action">Adjective example</button>
-                    <button type="button" onclick="example4()" class="list-group-item list-group-item-action">Prepositional phrase example</button>
-                    <button type="button" onclick="example5()" class="list-group-item list-group-item-action">Indirect object example</button>
+                    <button type="button" onclick="example2()" class="list-group-item list-group-item-action">Adverb example</button>
+                    <button type="button" onclick="example1()" class="list-group-item list-group-item-action">Adjective example</button>
+                    <button type="button" onclick="example4()" class="list-group-item list-group-item-action">Direct object example</button>
+                    <button type="button" onclick="example3()" class="list-group-item list-group-item-action">Prepositional phrase example</button>
+
                 </div>
             </div>
 
@@ -52,7 +53,7 @@
                 <h4><b>Basic sentence</b></h4>
                 <p>An example of how a basic sentence containing only a subject and a verb can be represented by a sentence diagram.</p>
                 <p><b>Sentence:</b></p>
-                <blockquote>Tom shouted</blockquote><br>
+                <blockquote>Tom shouted.</blockquote><br>
                 <p><b>Sentence breakdown:</b></p>
                 <p>Parts of speech: noun(Tom), verb(shouted).</p>
                 <p>Associated tags: NN, V.</p>
@@ -73,25 +74,26 @@
 
             </div>
             <div class="col-md-3">
-            <hr>
-            <div>
-                <h4><b>Direct object</b></h4>
-                <p>An example of how a sentence containing a direct object can be represented by a sentence diagram.</p>
-                <p><b>Sentence:</b></p>
-                <blockquote>David drove home</blockquote><br>
-                <p><b>Sentence breakdown:</b></p>
-                <p>Parts of speech: noun(David), verb(drove), adverb(home).</p>
-                <p>Associated tags: NN, V, RB.</p>
-            </div>
+                <hr>
+                <div>
+                    <h4><b>Passive verb</b></h4>
+                    <p>An example of how a sentence containing a passive verb can be represented by a sentence diagram.</p>
+                    <p><b>Sentence:</b></p>
+                    <blockquote>The sun is shining.</blockquote><br>
+                    <p><b>Sentence breakdown:</b></p>
+                    <p>Parts of speech: noun(sun), verb(is shining), determiner(The).</p>
+                    <p>Associated tags: NN, V, DET.</p>
+                </div>
 
             </div>
+
             <div class="col-md-3">
             <hr>
             <div>
                 <h4><b>Predicate noun</b></h4>
                 <p>An example of how a sentence containing a predicate noun can be represented by a sentence diagram.</p>
                 <p><b>Sentence:</b></p>
-                <blockquote>Blue is a colour</blockquote><br>
+                <blockquote>Blue is a colour.</blockquote><br>
                 <p><b>Sentence breakdown:</b></p>
                 <p>Parts of speech: noun(Blue), verb(is), determiner(a), noun(colour).</p>
                 <p>Associated tags: NN, V, DET.</p>
@@ -109,9 +111,9 @@
                     <h4><b>Adverb</b></h4>
                     <p>An example of how a sentence containing an adverb can be represented by a sentence diagram.</p>
                     <p><b>Sentence:</b></p>
-                    <blockquote>He ran very quickly.</blockquote><br>
+                    <blockquote>He ran very slowly.</blockquote><br>
                     <p><b>Sentence breakdown:</b></p>
-                    <p>Parts of speech: noun(He), verb(ran), adverb(very,quickly).</p>
+                    <p>Parts of speech: noun(He), verb(ran), adverb(very,slowly).</p>
                     <p>Associated tags: NN, V, RB.</p>
                 </div>
 
@@ -145,35 +147,20 @@
             <div class="col-md-3">
                 <hr>
                 <div>
-                    <h4><b>Indirect object</b></h4>
-                    <p>An example of how a sentence containing an indirect object can be represented by a sentence diagram.</p>
+                    <h4><b>Direct object</b></h4>
+                    <p>An example of how a sentence containing a direct object can be represented by a sentence diagram.</p>
                     <p><b>Sentence:</b></p>
-                    <blockquote>The teacher gave the class homework.</blockquote><br>
+                    <blockquote>David drove home.</blockquote><br>
                     <p><b>Sentence breakdown:</b></p>
-                    <p>Parts of speech: noun(Blue), verb(is), determiner(a), noun(colour).</p>
-                    <p>Associated tags: NN, V, DET.</p>
+                    <p>Parts of speech: noun(David), verb(drove), adverb(home).</p>
+                    <p>Associated tags: NN, V, RB.</p>
                 </div>
 
             </div>
         </div>
 
     </div>
-
-            <div class="col-md-3">
-                <div class="list-group">
-                    <button type="button" onclick="example4()" class="list-group-item list-group-item-action">Adverb Sentence</button>
-                    <button type="button" onclick="example5()" class="list-group-item list-group-item-action">Object Sentence</button>
-                </div>
-
-            </div>
-
-            </div>
-
-        </div>
-
-
-
-
+    </div>
 </body>
 </html>
 
