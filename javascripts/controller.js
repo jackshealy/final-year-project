@@ -5,7 +5,7 @@ var app = angular.module('SenTool',['ngRoute','chart.js']);
 // Creating a controller for each page injecting Angular's $scope
 app.controller('mainController', function($scope) {
     $scope.message = 'Welcome to SenTool!';
-    $scope.slogan = 'Sentence diagramming can be complicated.';
+    $scope.slogan = 'Sentence diagramming can be a complicated process.';
     $scope.slogan1 = 'Simplify it with SenTool.'
 
 });

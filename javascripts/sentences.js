@@ -296,7 +296,7 @@ var adv_sentence_syn = {
             type: 'straight'
         }
     },
-//The woman spoke very loudly
+//The woman speaks very loudly
     nodeStructure: {
         text: { name: "S"},
         HTMLclass: 'parentNode',
@@ -337,7 +337,7 @@ var adv_sentence_syn = {
                         },
                         children: [
                             {
-                                text:{name: "spoke"},
+                                text:{name: "speaks"},
                                 HTMLclass: 'value'
                             }
                         ]

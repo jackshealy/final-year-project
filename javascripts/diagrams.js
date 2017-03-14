@@ -1,6 +1,6 @@
 //Basic example
 //sentence: Tom shouted
-function example0(){
+function Basic(){
 
     var sen_JSON =
         {
@@ -17,10 +17,10 @@ function example0(){
 
     var verb = sen_JSON["verb"].value;
 
-    drawTree0(subject,verb);
+    drawBasic(subject,verb);
 }
 
-function drawTree0(subject, verb){
+function drawBasic(subject, verb){
     //function to draw tree structure
     var canvas = document.getElementById('displayCanvas');
     var draw = canvas.getContext('2d');
@@ -74,10 +74,10 @@ function drawQuestion(subject,verb,modifier){
 
     //verb modifier
     draw.beginPath();
-    draw.moveTo(285,100);
-    draw.lineTo(315,140);
+    draw.moveTo(335,100);
+    draw.lineTo(365,140);
     //verb modifier placeholder
-    draw.fillText(modifier,305,120);
+    draw.fillText(modifier,355,120);
     draw.closePath();
 
 
@@ -129,10 +129,10 @@ function drawPassiveVerb(subject,verb,modifier){
 
     //subject modifier
     draw.beginPath();
-    draw.moveTo(85,100);
-    draw.lineTo(115,140);
+    draw.moveTo(135,100);
+    draw.lineTo(165,140);
     //subject modifier placeholder
-    draw.fillText(modifier,105,120);
+    draw.fillText(modifier,155,120);
     draw.closePath();
 
 
@@ -147,7 +147,7 @@ function drawPassiveVerb(subject,verb,modifier){
 
 //Adjective example
 //sentence: The yellow ducks quacked
-function example1(){
+function Adjective(){
 
     var sen1_JSON =
         {
@@ -179,11 +179,11 @@ function example1(){
         modArray.push(sen1_JSON["subject"].modifiers[i].value);
     }
 
-    drawTree(subject, verb, modArray);
+    drawAdjective(subject, verb, modArray);
 }
 
 
-function drawTree(subject, verb, modArray){
+function drawAdjective(subject, verb, modArray){
     //function to draw tree structure
     var canvas = document.getElementById('displayCanvas');
     var draw = canvas.getContext('2d');
@@ -196,16 +196,16 @@ function drawTree(subject, verb, modArray){
 
     //subject modifier
     draw.beginPath();
-    draw.moveTo(85,100);
-    draw.lineTo(115,140);
+    draw.moveTo(135,100);
+    draw.lineTo(165,140);
     //subject modifier placeholder
-    draw.fillText(modArray[0],105,120);
+    draw.fillText(modArray[0],155,120);
 
     //2nd subject modifier
-    draw.moveTo(160,100);
-    draw.lineTo(190,140);
+    draw.moveTo(210,100);
+    draw.lineTo(240,140);
     //2nd subject modifier placeholder
-    draw.fillText(modArray[1],180,120);
+    draw.fillText(modArray[1],230,120);
     draw.closePath();
 
     draw.lineWidth = 2;
@@ -215,7 +215,7 @@ function drawTree(subject, verb, modArray){
 
 //Adverb example
 //sentence: He ran very slowly
-function example2(){
+function Adverb(){
 
     var sen2_JSON =
         {
@@ -248,11 +248,11 @@ function example2(){
         modArray.push(sen2_JSON["verb"].modifiers[i].value);
     }
 
-    drawTree2(subject, verb, modArray);
+    drawAdverb(subject, verb, modArray);
 
 }
 
-function drawTree2(subject, verb, modArray){
+function drawAdverb(subject, verb, modArray){
 
     var canvas = document.getElementById('displayCanvas');
     var draw = canvas.getContext('2d');
@@ -267,18 +267,18 @@ function drawTree2(subject, verb, modArray){
 
     //verb modifier (adverb)
     draw.beginPath();
-    draw.moveTo(300,100);
-    draw.lineTo(330,140);
+    draw.moveTo(350,100);
+    draw.lineTo(380,140);
     //verb modifier placeholder
-    draw.fillText(modArray[1],320,120);
+    draw.fillText(modArray[1],370,120);
 
     //adverb modifier
-    draw.moveTo(315,120);
-    draw.lineTo(290,145);
-    draw.lineTo(320,185);
-    draw.moveTo(320,185);
+    draw.moveTo(365,120);
+    draw.lineTo(340,145);
+    draw.lineTo(370,185);
+    draw.moveTo(370,185);
     //verb modifier placeholder
-    draw.fillText(modArray[0],310,165);
+    draw.fillText(modArray[0],360,165);
     draw.closePath();
 
 
@@ -290,7 +290,7 @@ function drawTree2(subject, verb, modArray){
 
 //Prepositional phrase example
 //sentence: The horse galloped through the empty field
-function example3(){
+function Preposition(){
 
     var sen3_JSON =
         {
@@ -359,7 +359,7 @@ function example3(){
     }
 
 
-    drawTree3(subject, verb, subjectMod, verbMod);
+    drawPreposition(subject, verb, subjectMod, verbMod);
 
 }
 
@@ -376,7 +376,7 @@ function modRecursive(modifier,typeArr,valueArr){
 }
 
 
-function drawTree3(subject, verb, subjectMod, verbMod){
+function drawPreposition(subject, verb, subjectMod, verbMod){
     var canvas = document.getElementById('displayCanvas');
     var draw = canvas.getContext('2d');
 
@@ -390,36 +390,36 @@ function drawTree3(subject, verb, subjectMod, verbMod){
 
     draw.beginPath();
     //subject modifier
-    draw.moveTo(85,100);
-    draw.lineTo(115,140);
+    draw.moveTo(135,100);
+    draw.lineTo(165,140);
     //subject modifier placeholder
-    draw.fillText(subjectMod,105,120);
+    draw.fillText(subjectMod,155,120);
 
     //preposition modifier
-    draw.moveTo(300,100);
-    draw.lineTo(330,140);
+    draw.moveTo(350,100);
+    draw.lineTo(380,140);
     //prepostion modifier placeholder
-    draw.fillText(verbMod[0],320,120);
+    draw.fillText(verbMod[0],370,120);
 
     //object modifier
-    draw.moveTo(330,140);
-    draw.lineTo(345,160);
-    draw.lineTo(450,160);
+    draw.moveTo(380,140);
+    draw.lineTo(395,160);
+    draw.lineTo(500,160);
     //object modifier placeholder
-    draw.fillText(verbMod[1],370,150);
+    draw.fillText(verbMod[1],420,150);
 
     //determiner modifier
-    draw.moveTo(355,160);
-    draw.lineTo(385,200);
+    draw.moveTo(405,160);
+    draw.lineTo(435,200);
     //object modifier placeholder
-    draw.fillText(verbMod[2],375,180);
+    draw.fillText(verbMod[2],425,180);
 
     //adjective modifier
-    draw.moveTo(420,160);
-    draw.lineTo(450,200);
+    draw.moveTo(470,160);
+    draw.lineTo(500,200);
 
     //object modifier placeholder
-    draw.fillText(verbMod[3],440,180);
+    draw.fillText(verbMod[3],490,180);
     draw.closePath();
 
     draw.lineWidth = 2;
@@ -429,7 +429,7 @@ function drawTree3(subject, verb, subjectMod, verbMod){
 
 //Direct object example
 //sentence: David drove home
-function example4(){
+function directObject(){
 
     var sen4_JSON =
         {
@@ -454,11 +454,11 @@ function example4(){
 
     var directObject = sen4_JSON["verb"].modifiers[0].value;
 
-    drawTree4(subject, verb, directObject);
+    drawDirectObject(subject, verb, directObject);
 
 }
 
-function drawTree4(subject, verb, directObject){
+function drawDirectObject(subject, verb, directObject){
 
     var canvas = document.getElementById('displayCanvas');
     var draw = canvas.getContext('2d');
@@ -473,12 +473,12 @@ function drawTree4(subject, verb, directObject){
 
     //verb modifier (direct object)
     draw.beginPath();
-    draw.moveTo(380,100);
-    draw.lineTo(380,70);
     draw.moveTo(430,100);
-    draw.lineTo(460,100);
+    draw.lineTo(430,70);
+    draw.moveTo(480,100);
+    draw.lineTo(510,100);
     //verb modifier placeholder
-    draw.fillText(directObject,400,90);
+    draw.fillText(directObject,450,90);
     draw.closePath();
     draw.lineWidth = 2;
     draw.strokeStyle = 'black';
@@ -488,7 +488,7 @@ function drawTree4(subject, verb, directObject){
 
 //Predicate noun example
 //sentence: blue is a colour
-function example5(){
+function predicateNoun(){
 
     var sen5_JSON =
         {
@@ -521,11 +521,11 @@ function example5(){
         modArray.push(sen5_JSON["verb"].modifiers[i].value);
     }
 
-    drawTree5(subject, verb, modArray);
+    drawPredicateNoun(subject, verb, modArray);
 
 }
 
-function drawTree5(subject, verb, modArray){
+function drawPredicateNoun(subject, verb, modArray){
 
     var canvas = document.getElementById('displayCanvas');
     var draw = canvas.getContext('2d');
@@ -540,131 +540,23 @@ function drawTree5(subject, verb, modArray){
 
     //verb modifier (pronoun) - copula construction
     draw.beginPath();
-    draw.moveTo(370,100);
-    draw.lineTo(345,70);
+    draw.moveTo(420,100);
+    draw.lineTo(395,70);
     //verb modifier placeholder
-    draw.fillText(modArray[0],375,90);
+    draw.fillText(modArray[0],425,90);
 
     //verb modifier (determiner)
-    draw.moveTo(375,100);
-    draw.lineTo(405,140);
+    draw.moveTo(425,100);
+    draw.lineTo(455,140);
 
     //verb modifier placeholder
-    draw.fillText(modArray[1],395,120);
+    draw.fillText(modArray[1],445,120);
     draw.closePath();
 
 
     draw.lineWidth = 2;
     draw.strokeStyle = 'black';
     draw.stroke();
-
-}
-
-
-function example6(){
-
-    var sen6_JSON =
-        {
-            sentence: 'Sean plays soccer,rugby and golf',
-            subject:{
-                value:'Sean'
-            },
-            verb:{
-                value:'plays',
-                modifiers:[
-                    {
-                        type:'conjunction',
-                        value:'and',
-                        modifiers:[
-                            {
-                                type:'object',
-                                value:'soccer'
-                            },
-                            {
-                                type:'object',
-                                value:'rugby'
-                            },
-                            {
-                                type:'object',
-                                value:'golf'
-                            }
-                        ]
-                    }
-                ]
-            }
-        };
-
-    var subject = sen6_JSON["subject"].value;
-
-    var verb = sen6_JSON["verb"].value;
-
-    var conjunction = sen6_JSON["verb"].modifiers[0].value;
-
-    var typeArr = [], valueArr = [];
-    for(var i=0; i<sen6_JSON["verb"].modifiers.length; i++){
-        if(sen6_JSON["verb"].modifiers[0].type){typeArr.push(sen6_JSON["verb"].modifiers[0].type)}
-        if(sen6_JSON["verb"].modifiers[0].value){valueArr.push(sen6_JSON["verb"].modifiers[0].value)}
-        if(sen6_JSON["verb"].modifiers[0].modifiers){modRecursive(sen6_JSON["verb"].modifiers[0].modifiers,typeArr,valueArr)}
-    }
-
-    var conjunctionMod = [];
-    for(var j=0; i<valueArr.length; i++)
-    {
-        conjunctionMod.push(valueArr[j]);
-    }
-
-    drawTree6(subject, verb, conjunction, conjunctionMod);
-
-}
-
-function drawTree6(subject, verb, conjunction, conjunctionMod){
-
-    var canvas = document.getElementById('displayCanvas');
-    var draw = canvas.getContext('2d');
-
-    draw.clearRect(0, 0, canvas.width, canvas.height);
-
-    draw.font = "17px Arial";
-
-    //subject-verb relationship
-    drawSubjectVerb(subject,verb);
-
-    draw.beginPath();
-    draw.moveTo(430,100);
-    draw.lineTo(430,70);
-    //first object
-    draw.moveTo(430,100);
-    draw.lineTo(440,100);
-    draw.lineTo(480,60);
-    draw.lineTo(570,60);
-    draw.fillText(conjunctionMod[1],510,50);
-
-    //second object
-    draw.moveTo(440,100);
-    draw.lineTo(480,140);
-    draw.lineTo(570,140);
-    draw.fillText(conjunctionMod[2],510,90);
-    //third object
-    draw.moveTo(480,100);
-    draw.lineTo(570,100);
-    draw.moveTo(570,100);
-    draw.fillText(conjunctionMod[3],510,130);
-
-    draw.closePath();
-
-
-    draw.lineWidth = 2;
-    draw.strokeStyle = 'black';
-    draw.stroke();
-
-    /*draw.beginPath();
-    draw.setLineDash([5, 4]);
-    draw.moveTo(480,60);
-    draw.lineTo(480,140);
-    draw.closePath();
-    draw.fillText(conjunction,450,105);
-    draw.stroke();*/
-
 
 }
 
@@ -672,20 +564,20 @@ function drawSubjectVerb(sub, verb){
     var canvas = document.getElementById('displayCanvas');
     var draw = canvas.getContext('2d');
     draw.beginPath();
-    draw.moveTo(70,100);
-    draw.lineTo(250,100);
-    draw.lineTo(250,70);
-    draw.moveTo(250,100);
-    draw.lineTo(250,130);
-    draw.moveTo(250,100);
-    draw.lineTo(430,100);
+    draw.moveTo(120,100);
+    draw.lineTo(300,100);
+    draw.lineTo(300,70);
+    draw.moveTo(300,100);
+    draw.lineTo(300,130);
+    draw.moveTo(300,100);
+    draw.lineTo(480,100);
     draw.closePath();
     draw.lineWidth = 2;
     draw.strokeStyle = 'black';
     draw.stroke();
     //subject placeholder
-    draw.fillText(sub,135,90);
+    draw.fillText(sub,185,90);
     //verb placeholder
-    draw.fillText(verb,315,90);
+    draw.fillText(verb,365,90);
 
 }
