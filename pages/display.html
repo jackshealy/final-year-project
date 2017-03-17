@@ -5,15 +5,15 @@
 </head>
 <body>
     <div class="jumbotron text-center">
-        <h1>View.</h1>
+        <h1>Display.</h1>
 
         <p>{{ message }}</p>
     </div>
 
     <div class="container mainBody">
 
-        <div class="row well">
-            <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-12" style="margin-bottom: 10px;">
                 <h4><b>Diagram Display</b></h4>
                 <p>Use the buttons below to display a selection of sentence diagrams in the display space. Pay particular attention to the primitives that are used to diagram the different grammatical
                 components of each sentence. A breakdown of the sentences that can be displayed can be found below the display space. Also visit the <a href="#about"><b>about page</b></a> to find out more about the
@@ -24,10 +24,10 @@
         <div class="row" id="diagramDisplay">
             <div class="col-md-3 text-center">
                 <div class="list-group">
-                    <button type="button" onclick="Basic()" class="list-group-item list-group-item-action">Basic Sentence example</button>
-                    <button type="button" onclick="Question()" class="list-group-item list-group-item-action">Question example</button>
-                    <button type="button" onclick="passiveVerb()" class="list-group-item list-group-item-action">Passive verb example</button>
-                    <button type="button" onclick="predicateNoun()" class="list-group-item list-group-item-action">Predicate noun example</button>
+                    <button type="button" onclick="Basic()" class="list-group-item list-group-item-action displayButton">Basic Sentence example</button>
+                    <button type="button" onclick="Question()" class="list-group-item list-group-item-action displayButton">Question example</button>
+                    <button type="button" onclick="passiveVerb()" class="list-group-item list-group-item-action displayButton">Passive verb example</button>
+                    <button type="button" onclick="predicateNoun()" class="list-group-item list-group-item-action displayButton">Predicate noun example</button>
                 </div>
             </div>
             <div class="col-md-6 text-center">
@@ -35,10 +35,10 @@
             </div>
             <div class="col-md-3 text-center">
                 <div class="list-group">
-                    <button type="button" onclick="Adverb()" class="list-group-item list-group-item-action">Adverb example</button>
-                    <button type="button" onclick="Adjective()" class="list-group-item list-group-item-action">Adjective example</button>
-                    <button type="button" onclick="directObject()" class="list-group-item list-group-item-action">Direct object example</button>
-                    <button type="button" onclick="Preposition()" class="list-group-item list-group-item-action">Prepositional phrase example</button>
+                    <button type="button" onclick="Adverb()" class="list-group-item list-group-item-action displayButton">Adverb example</button>
+                    <button type="button" onclick="Adjective()" class="list-group-item list-group-item-action displayButton">Adjective example</button>
+                    <button type="button" onclick="directObject()" class="list-group-item list-group-item-action displayButton">Direct object example</button>
+                    <button type="button" onclick="Preposition()" class="list-group-item list-group-item-action displayButton">Prepositional phrase example</button>
 
                 </div>
             </div>
@@ -48,7 +48,7 @@
         <div class="well ">
         <div class="row">
             <div style="padding-left: 10px;"><h4><b>Diagram Descriptions</b></h4>
-            <p>Below is a description of each of the diagrams that you can display in the display space.</p>
+                <p>Below is a description of each of the diagrams that you can visualise in the display space. Visit the <a href="#about"><b>about page</b></a> to learn about the colour-coded parts of speech used below.</p>
             </div>
             <div class="col-md-3">
             <hr>
@@ -58,8 +58,8 @@
                 <p><b>Sentence:</b></p>
                 <blockquote>Tom shouted.</blockquote><br>
                 <p><b>Sentence breakdown:</b></p>
-                <p>Parts of speech: noun(Tom), verb(shouted).</p>
-                <p>Associated tags: NN, V.</p>
+                <p><i>Parts of speech:</i> <span class="nounTag">noun</span>(Tom), <span class="verbTag">verb</span>(shouted).</p>
+                <p><i>Associated tags:</i> <span class="nounTag">NN</span>, <span class="verbTag">V</span>.</p>
             </div>
 
             </div>
@@ -71,8 +71,8 @@
                 <p><b>Sentence:</b></p>
                 <blockquote>Why are you laughing?</blockquote><br>
                 <p><b>Sentence breakdown:</b></p>
-                <p>Parts of speech: noun(you), verb(are laughing), adverb(why).</p>
-                <p>Associated tags: NN, V, RB.</p>
+                <p><i>Parts of speech:</i> <span class="nounTag">noun</span>(you), <span class="verbTag">verb</span>(are laughing), <span class="adverbTag">adverb</span>(why).</p>
+                <p><i>Associated tags:</i> <span class="nounTag">NN</span>, <span class="verbTag">V</span>, <span class="adverbTag">RB</span>.</p>
             </div>
 
             </div>
@@ -84,8 +84,8 @@
                     <p><b>Sentence:</b></p>
                     <blockquote>The sun is shining.</blockquote><br>
                     <p><b>Sentence breakdown:</b></p>
-                    <p>Parts of speech: noun(sun), verb(is shining), determiner(The).</p>
-                    <p>Associated tags: NN, V, DET.</p>
+                    <p><i>Parts of speech:</i> <span class="nounTag">noun</span>(sun), <span class="verbTag">verb</span>(is shining), <span class="adjectiveTag">determiner</span>(The).</p>
+                    <p><i>Associated tags:</i> <span class="nounTag">NN</span>, <span class="verbTag">V</span>, <span class="adjectiveTag">DT</span>.</p>
                 </div>
 
             </div>
@@ -98,8 +98,8 @@
                 <p><b>Sentence:</b></p>
                 <blockquote>Blue is a colour.</blockquote><br>
                 <p><b>Sentence breakdown:</b></p>
-                <p>Parts of speech: noun(Blue), verb(is), determiner(a), noun(colour).</p>
-                <p>Associated tags: NN, V, DET.</p>
+                <p><i>Parts of speech:</i> <span class="nounTag">noun</span>(Blue), <span class="verbTag">verb</span>(is), <span class="adjectiveTag">determiner</span>(a), <span class="nounTag">predicate noun</span>(colour).</p>
+                <p><i>Associated tags:</i> <span class="nounTag">NN</span>, <span class="verbTag">V</span>, <span class="adjectiveTag">DT</span>.</p>
             </div>
 
             </div>
@@ -116,8 +116,8 @@
                     <p><b>Sentence:</b></p>
                     <blockquote>He ran very slowly.</blockquote><br>
                     <p><b>Sentence breakdown:</b></p>
-                    <p>Parts of speech: noun(He), verb(ran), adverb(very,slowly).</p>
-                    <p>Associated tags: NN, V, RB.</p>
+                    <p><i>Parts of speech:</i> <span class="nounTag">noun</span>(He), <span class="verbTag">verb</span>(ran), <span class="adverbTag">adverb</span>(very,slowly).</p>
+                    <p><i>Associated tags:</i> <span class="nounTag">NN</span>, <span class="verbTag">V</span>, <span class="adverbTag">RB</span>.</p>
                 </div>
 
             </div>
@@ -129,8 +129,8 @@
                     <p><b>Sentence:</b></p>
                     <blockquote>The yellow ducks quacked.</blockquote><br>
                     <p><b>Sentence breakdown:</b></p>
-                    <p>Parts of speech: noun(ducks), verb(quacked), adjective(yellow), determiner(The).</p>
-                    <p>Associated tags: NN, V, JJ.</p>
+                    <p><i>Parts of speech:</i> <span class="nounTag">noun</span>(ducks), <span class="verbTag">verb</span>(quacked), <span class="adjectiveTag">adjective</span>(yellow), determiner(The).</p>
+                    <p><i>Associated tags:</i> <span class="nounTag">NN</span>, <span class="verbTag">V</span>, <span class="adjectiveTag">JJ</span>, <span class="adjectiveTag">DT</span>.</p>
                 </div>
 
             </div>
@@ -142,8 +142,8 @@
                     <p><b>Sentence:</b></p>
                     <blockquote>The horse galloped through the empty field.</blockquote><br>
                     <p><b>Sentence breakdown:</b></p>
-                    <p>Parts of speech: noun(horse, field), verb(galloped), determiner(the), adjective(empty), preposition(through).</p>
-                    <p>Associated tags: NN, V, JJ, DET, PP.</p>
+                    <p><i>Parts of speech:</i> <span class="nounTag">noun</span>(horse, field), <span class="verbTag">verb</span>(galloped), <span class="adjectiveTag">determiner</span>(the), <span class="adjectiveTag">adjective</span>(empty), <span class="prepositionTag">preposition</span>(through).</p>
+                    <p><i>Associated tags:</i> <span class="nounTag">NN</span>, <span class="verbTag">V</span>, <span class="adjectiveTag">JJ</span>, <span class="adjectiveTag">DT</span>, <span class="prepositionTag">PP</span>.</p>
                 </div>
 
             </div>
@@ -155,8 +155,8 @@
                     <p><b>Sentence:</b></p>
                     <blockquote>David drove home.</blockquote><br>
                     <p><b>Sentence breakdown:</b></p>
-                    <p>Parts of speech: noun(David), verb(drove), adverb(home).</p>
-                    <p>Associated tags: NN, V, RB.</p>
+                    <p><i>Parts of speech:</i> <span class="nounTag">noun</span>(David), <span class="verbTag">verb</span>(drove), <span class="adverbTag">adverb</span>(home).</p>
+                    <p><i>Associated tags:</i> <span class="nounTag">NN</span>, <span class="verbTag">V</span>, <span class="adverbTag">RB</span>.</p>
                 </div>
 
             </div>

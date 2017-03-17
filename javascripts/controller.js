@@ -2,7 +2,8 @@
 
 var app = angular.module('SenTool',['ngRoute','chart.js']);
 
-// Creating a controller for each page injecting Angular's $scope
+// Creating a controller for each view injecting Angular's $scope
+
 app.controller('mainController', function($scope) {
     $scope.message = 'Welcome to SenTool!';
     $scope.slogan = 'Sentence diagramming can be a complicated process.';
@@ -11,7 +12,7 @@ app.controller('mainController', function($scope) {
 });
 
 app.controller('viewController', function($scope) {
-    $scope.message = 'View various types of sentence diagrams generated from JSON.';
+    $scope.message = 'Display various types of sentence diagrams!';
 });
 
 app.controller('treeController', function($scope) {
@@ -22,14 +23,45 @@ app.controller('aboutController', function($scope) {
     $scope.message = 'Learn about Sentence Diagrams!';
 });
 
-app.controller('treantController', function($scope){
+// configuring view routes
+app.config(function($routeProvider) {
+    $routeProvider
 
+    // route for the home view
+        .when('/', {
+            templateUrl : 'pages/home.html',
+            controller  : 'mainController'
+        })
+
+        // route for the display view
+        .when('/display', {
+            templateUrl : 'pages/display.html',
+            controller  : 'viewController'
+        })
+
+        // route for the tree view
+        .when('/tree', {
+            templateUrl : 'pages/tree.html',
+            controller  : 'treeController'
+        })
+
+        // route for the about view
+        .when('/about', {
+            templateUrl : 'pages/about.html',
+            controller  : 'aboutController'
+        });
+});
+
+
+//Controller to display syntax trees. $scope variables store Treant constructors
+app.controller('treantController', function($scope){
     $scope.simpleSentence = new Treant(simple_sentence_syn);
     $scope.adjSentence = new Treant(adj_sentence_syn);
     $scope.advSentence = new Treant(adv_sentence_syn);
     $scope.prepSentence = new Treant(prep_sentence_syn);
 });
 
+//Controller to create bar chart on about view
 app.controller('barChartController', function($scope){
     $scope.labels = ['English', 'Spanish', 'Chinese', 'Arabic', 'French', 'Portuguese'];
     $scope.series = ['Native Language', 'Second Language','Total'];
@@ -71,37 +103,3 @@ app.controller('barChartController', function($scope){
 
 
 
-// configuring the routes
-app.config(function($routeProvider) {
-    $routeProvider
-
-    // route for the home page
-        .when('/', {
-            templateUrl : 'pages/home.html',
-            controller  : 'mainController'
-        })
-
-        // route for the build page
-        .when('/view', {
-            templateUrl : 'pages/view.html',
-            controller  : 'viewController'
-        })
-
-        // route for the tree page
-        .when('/tree', {
-            templateUrl : 'pages/tree.html',
-            controller  : 'treeController'
-        })
-
-        // route for the tools div
-        .when('/tools', {
-            templateUrl : 'pages/about.html#tools',
-            controller  : 'aboutController'
-        })
-
-        // route for the about page
-        .when('/about', {
-            templateUrl : 'pages/about.html',
-            controller  : 'aboutController'
-        });
-});
