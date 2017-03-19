@@ -12,6 +12,21 @@
 
     <div class="container mainBody">
 
+        <!--This snippet of code allows the user to enter a sentence which is then stored in a MongoDB collection as a JSON object.
+        Due to time constraints this was left out to be continued in future work.-->
+        <!--<div class="row">
+            <div class="col-md-5">
+                <div class="well">
+                    <div id="enterSentence">
+                        <h4><b>Enter the sentence you wish to diagram</b></h4>
+                        <form action="/sentence" method="POST">
+                            <input type="text" placeholder="Enter your sentence here" name="sentence" size="42">
+                            <button type="submit">Enter</button>
+                        </form>
+                    </div>
+                </div>
+            </div>-->
+
         <div class="row">
             <div class="col-md-12" style="margin-bottom: 10px;">
                 <h4><b>Diagram Display</b></h4>
@@ -167,75 +182,5 @@
 </body>
 </html>
 
-<!--<div class="row">
-<div class="col-md-5">
-    <div class="well">
-        <div id="enterSentence">
-            <h4><b>Enter the sentence you wish to diagram</b></h4>
-            <form action="/sentence" method="POST">
-                <input type="text" placeholder="Enter your sentence here" name="sentence" size="42">
-                <button type="submit">Enter</button>
-            </form>
-        </div>
-    </div>
-</div>-->
 
 
-<!--<div class="col-md-7">
-    <div class="well">
-        <h4>Drawing Space</h4>
-        <p>A description of each drawing primitive: <a class="btn btn-default" role="button">Tool Descriptions</a></p>
-        <svg height="600" viewBox="0 0 600 600" width="600" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
-                        <path d="M 100 0 L 0 0 0 100" fill="none" stroke="#cccccc" stroke-width="1"></path>
-                    </pattern>
-                </defs>
-                <rect fill="white" height="600" width="600" y="0"></rect>
-                <rect fill="url(#grid)" height="600" width="600" y="0"></rect>-->
-
-<!-------Drawing Primitives------->
-
-<!-- <path id="baseLine" d="M80 80 H160" stroke="black"
-   stroke-width="2" fill="none"></path>
- <path id="subjectVerbRelationship" d="M80 80 H180 V60 V100 V80 H280" stroke="black"
-       stroke-width="2" fill="none"></path>
- <path id="directObject" d="M80 80 H100 V60 V80 H180" stroke="black"
-       stroke-width="2" fill="none"></path>
- <path id="modifier" d="M80 80 L120 120" stroke="black"
-       stroke-width="2" fill="none"></path>
- <path id="secondModifier" d="M100 60 L80 80 L120 120" stroke="black"
-       stroke-width="2" fill="none"></path>
- <path id="indirectObject" d="M80 80 L100 100 H180" stroke="black"
-       stroke-width="2" fill="none"></path>
- <path id="verticalLine" d="M100 100 V120" stroke="black"
-       stroke-width="2" fill="none"></path>
- <g>
-     <path id="compoundGroup" d="M80 80 L120 40 H200" stroke="black"
-           stroke-width="2" fill="none"></path>
-     <path stroke-dasharray="5,5" d="M120 40 V120 120" stroke="black" fill="none" stroke-width="1"></path>
-     <text x="107" y="68" style="writing-mode: vertical-lr; glyph-orientation-vertical: 0;">and</text>
-     <path id="compoundGroup1" d="M80 80 L120 120 H200" stroke="black"
-           stroke-width="2" fill="none"></path>
- </g>
- <g>
-     <path id="tripleGroup" d="M80 80 L120 40 H200" stroke="black"
-           stroke-width="2" fill="none"></path>
-     <path stroke-dasharray="6,6" d="M120 40 V120 120" stroke="black" fill="none" stroke-width="1"></path>
-     <text x="107" y="68" style="writing-mode: vertical-lr; glyph-orientation-vertical: 0;">and</text>
-     <path id="tripleGroup1" d="M80 80 L120 120 H200" stroke="black"
-           stroke-width="2" fill="none"></path>
-     <path id="tripleGroup2" d="M120 80 H200" stroke="black"
-           stroke-width="2" fill="none"></path>
- </g>
-</svg>
-</div>
-</div>
-</div>-->
-<!--<div id="drawingSpace">
-<h2>Draw your Sentence diagram in the drawing space below</h2>
-
-<script src="http://d3js.org/d3.v3.min.js"></script>
-<!--<script src="draw-a-line.js"></script>
-<script src="javascripts/draw.js"></script>
-</div> -->
