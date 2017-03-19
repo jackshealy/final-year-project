@@ -23,17 +23,8 @@ var test_config = {
     }
 };
 
-//Simple Sentence (Subject + Verb)
-/*{
- sentence: 'Tom was laughing',
- subject:{
- value: 'Tom'
- },
- verb:{
- value:'was laughing'
- }
- }*/
-
+//Simple sentence
+//dependency tree
 var simple_sentence = {
     chart:  {
         container: '#tree-structure',
@@ -58,9 +49,23 @@ var simple_sentence = {
     }
 };
 
+//syntax tree
 var simple_sentence_syn = {
     chart: {
         container: '#simple_sentence',
+
+        animateOnInit: false,
+        nodeAlign: "Top",
+
+        node: {
+            collapsable: true
+        },
+        animation: {
+            nodeAnimation: "easeOutBounce",
+            nodeSpeed: 800,
+            connectorsAnimation: "bounce",
+            connectorsSpeed: 800
+        },
 
         connectors: {
             type: 'straight'
@@ -115,23 +120,8 @@ var simple_sentence_syn = {
     }
 };
 
-//More complex sentence (Subject, Verb and Adjective)
-/*{
- sentence: 'The colourful bird flew',
- subject:{
- value: 'bird',
- modifiers:[
- {
- type:'adjective',
- value:'The colourful'
- }
- ]
- },
- verb:{
- value:'flew'
- }
- }*/
-
+//Sentence with an adjective
+//dependency tree
 var adj_sentence = {
     chart:  {
         container: '#tree-structure',
@@ -162,9 +152,23 @@ var adj_sentence = {
     }
 };
 
+//syntax tree
 var adj_sentence_syn = {
     chart:  {
         container: '#adjective_sentence',
+
+        animateOnInit: false,
+        nodeAlign: "Top",
+
+        node: {
+            collapsable: true
+        },
+        animation: {
+            nodeAnimation: "easeOutBounce",
+            nodeSpeed: 800,
+            connectorsAnimation: "bounce",
+            connectorsSpeed: 800
+        },
 
         connectors: {
             type: 'straight'
@@ -228,29 +232,8 @@ var adj_sentence_syn = {
     }
 };
 
-//More complex sentence (Subject, Verb and Adverb)
-/*{
- sentence: 'The woman spoke very loudly',
- subject:{
- value: 'woman',
- modifiers:[
- {
- type:'determiner',
- value:'The'
- }
- ]
- },
- verb:{
- value:'spoke',
- modifiers:[
- {
- type:'adverb',
- value:'very loudly'
- }
- ]
- }
- }*/
-
+//sentence with an adverb
+//dependency tree
 var adv_sentence = {
     chart:  {
         container: '#tree-structure',
@@ -288,9 +271,23 @@ var adv_sentence = {
     }
 };
 
+//syntax tree
 var adv_sentence_syn = {
     chart:  {
         container: '#adverb_sentence',
+
+        animateOnInit: false,
+        nodeAlign: "Top",
+
+        node: {
+            collapsable: true
+        },
+        animation: {
+            nodeAnimation: "easeOutBounce",
+            nodeSpeed: 800,
+            connectorsAnimation: "bounce",
+            connectorsSpeed: 800
+        },
 
         connectors: {
             type: 'straight'
@@ -373,41 +370,8 @@ var adv_sentence_syn = {
     }
 };
 
-//More complex sentence (Subject, Verb and prepositional phrase)
-/*{
- sentence: 'The horse galloped through the empty field',
- subject:{
- value: 'horse',
- modifiers:[
- {
- type:'determiner',
- value:'The'
- }
- ]
- },
- verb:{
- value:'galloped',
- modifiers:[
- {
- type:'preposition',
- value:'through',
- modifiers:[
- {
- type:'object',
- value:'field',
- modifiers:[
- {
- type:'adjective',
- value:'the empty'
- }
- ]
- }
- ]
- }
- ]
- }
- }*/
-
+//sentence with a prepositional phrase
+//dependency tree
 var prep_sentence = {
     chart:  {
         container: '#tree-structure',
@@ -459,9 +423,23 @@ var prep_sentence = {
     }
 };
 
+//syntax tree
 var prep_sentence_syn = {
     chart:  {
         container: '#prepositional_sentence',
+
+        animateOnInit: false,
+        nodeAlign: "Top",
+
+        node: {
+            collapsable: true
+        },
+        animation: {
+            nodeAnimation: "easeOutBounce",
+            nodeSpeed: 800,
+            connectorsAnimation: "bounce",
+            connectorsSpeed: 800
+        },
 
         connectors: {
             type: 'straight'
