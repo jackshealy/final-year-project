@@ -363,6 +363,7 @@ function Preposition(){
 
 }
 
+//recursive function to traverse through modifiers in JSON
 //This function takes in a modifier, typeArr and valueArr.
 function modRecursive(modifier,typeArr,valueArr){
     for(var i=0; i<modifier.length; i++){
