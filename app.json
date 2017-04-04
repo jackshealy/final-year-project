@@ -1,0 +1,6 @@
+{
+	"name": "SenTool",
+	"description": "A MEAN stack application for sentence diagrams",
+	"repository": "https://github.com/jackshealy/final-year-project",
+	"keywords": ["node", "MEAN", "sentence", "diagram", "SenTool"]
+}
