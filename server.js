@@ -42,8 +42,10 @@ app.get('/', function(req, res) {
     res.sendFile('index.html'); //sendFile method to send a file to the browser
 });
 
-app.listen(3000, function() {
-    console.log('listening on 3000')
+var port = process.env.PORT || 5000;
+
+app.listen(port, function() {
+    console.log('listening on ' + port);
 });
 
 
