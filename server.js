@@ -5,13 +5,13 @@ var bodyParser= require('body-parser');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(require('express-method-override')('method_override_param_name'));
-var mongoose = require('mongoose');
-mongoose.connect('mongodb://127.0.0.1/fyp');
+//var mongoose = require('mongoose');
+//mongoose.connect('mongodb://127.0.0.1/fyp');
 
 //The code below stores the sentence entered by the user in a MongoDB collection as a JSON object.
 //Due to time constraints this could not be taken any further so was left out for future work.
 
-var Schema = mongoose.Schema;
+/*var Schema = mongoose.Schema;
 
 var sentenceSchema = new Schema({
    sentence: String
@@ -35,7 +35,7 @@ app.get('/displaySentences', function(req, res) {
         res.send(data);
     });
 
-});
+});*/
 
 app.use(express.static(__dirname));
 app.get('/', function(req, res) {
